@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Giftastic!</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</head>
+<body>
+    <div class="container-fluid page">
+        <div class="container">
+            <div class="row">
+                    <div class="form-group text-center">
+                        <label class="display title">randome feeling magic?</label>
+                        <input type="text" class="form-control" id="emotionInput" placeholder="Enter an emotion or mood eg. Happy, Sad, Angry">
+                        <br><br>
+                        <button id="submitButtonId" type="submit" class="btn">Create a Feeling Category!</button>
+                    </div>
+            </div>
+            <div class="row">
+                <p class="title" style="font-weight: bold;">
+                    Instructions: Type in a feeling or mood to create a feeling category button.
+                    Click on the button to generate 10 gifs. Click on the button again to generate 10 more gifs.
+                    Click on the gif image to play and pause the gif.
+                </p>
+            </div>
+            <div class="row">
+                <div id="buttonDiv">
+                <!--Add buttons here-->
+                </div>
+            </div>
+            <div class="row gifDiv">
+                <!--Add Gifs Here-->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
